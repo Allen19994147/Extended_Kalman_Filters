@@ -1,7 +1,8 @@
-# Extended_Kalman_Filters
+#Extended_Kalman_Filters
 
-#An Extended Kalman Filter implementation on a wheeled vehicle.
-#Two implementations are provided, one for known correspondences and the other for unknown correspondences.
-#They are EKF.m and EKF_unknown.m, respectively.
+Extended Kalman Filter implementation on a wheeled robot.
 
-#The rest files are for sensor models and vehicle kinematics, and some auxiliary functions are also included as m file.
+In EKF.m file, extended Kalman filter is implemented to estimate its positions and velocity given known correspondences.
+While in EKF_unknown.m file,  extended Kalman filter is implemented to estimate its positions and velocity given unknown correspondences.
+
+The rest files are for sensor models and vehicle kinematics, and some auxiliary functions are also included as m file.
